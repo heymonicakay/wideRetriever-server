@@ -1,0 +1,84 @@
+{
+  "users": [],
+  "reminders": [],
+  "reminderFor": [],
+  "players": [],
+  "followings": [],
+  "playtimeGoals": [],
+  "exerciseGoals": [],
+  "trainingGoals": [],
+  "playtimes": [],
+  "exercises": [],
+  "trainings": [],
+  "measurementTypes": [
+    {
+      "id": 1,
+      "measurement": "minute",
+      "plural": "minutes"
+    },
+    {
+      "id": 2,
+      "measurement": "hour",
+      "plural": "hours"
+    },
+    {
+      "id": 3,
+      "measurement": "time",
+      "plural": "times"
+    }
+  ],
+  "frequencies": [
+    {
+      "id": 1,
+      "each": "day"
+    },
+    {
+      "id": 2,
+      "each": "week"
+    },
+    {
+      "id": 3,
+      "each": "month"
+    }
+  ],
+  "trainingTypes": [
+    {
+      "id": 1,
+      "type": "Sit"
+    },
+    {
+      "id": 2,
+      "type": "Stay"
+    },
+    {
+      "id": 3,
+      "type": "Fetch"
+    },
+    {
+      "id": 4,
+      "type": "Shake"
+    },
+    {
+      "type": "Roll Over",
+      "id": 5
+    }
+  ],
+  "exerciseTypes": [
+    {
+      "id": 1,
+      "type": "Walk"
+    },
+    {
+      "id": 2,
+      "type": "Run"
+    },
+    {
+      "id": 3,
+      "type": "Hike"
+    },
+    {
+      "id": 4,
+      "type": "Swim"
+    }
+  ]
+}
