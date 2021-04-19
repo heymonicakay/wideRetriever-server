@@ -49,73 +49,6 @@
   ],
   "reminders": [
     {
-      "userId": 1,
-      "parent": "",
-      "reminderTitle": "Bathtime",
-      "reminderNote": "Give Kaos a bath.",
-      "dueDate": "2020-10-10",
-      "dueDateTimestamp": 1601853279999,
-      "timeDue": "12:00",
-      "dateSet": "2020-10-04T23:14:38.191Z",
-      "timestamp": 1601853278191,
-      "dateCompleted": "",
-      "recurrance": "",
-      "id": 1
-    },
-    {
-      "userId": 1,
-      "parent": "",
-      "reminderTitle": "Flea & Tick",
-      "reminderNote": "Give Kaos his flea & tick medicine.",
-      "dueDate": "2020-10-10",
-      "dueDateTimestamp": 1601853279999,
-      "timeDue": "12:00",
-      "dateSet": "2020-10-04T23:14:38.191Z",
-      "timestamp": 1601853278191,
-      "dateCompleted": "",
-      "recurrance": "",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "parent": "",
-      "reminderTitle": "Checkup",
-      "reminderNote": "Kaos' vet checkup.",
-      "dueDate": "2020-10-04",
-      "dueDateTimestamp": 1601855613943,
-      "dateSet": "2020-10-04T23:53:32.468Z",
-      "timestamp": 1601855612468,
-      "dateCompleted": "",
-      "recurrance": "",
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "parent": "",
-      "reminderTitle": "Order Food",
-      "dueDate": "2020-10-31",
-      "dueDateTimestamp": 1601855986743,
-      "dateSet": "2020-10-04T23:59:32.990Z",
-      "timestamp": 1601855972990,
-      "dateCompleted": "",
-      "recurrance": "",
-      "id": 4
-    },
-    {
-      "userId": 6,
-      "parent": "",
-      "reminderTitle": "Bathtime",
-      "reminderNote": "Give Frank a bath.",
-      "dueDate": "2020-12-28",
-      "dueDateTimestamp": 1609113600,
-      "timeDue": "12:00",
-      "dateSet": "2020-10-04T23:14:38.191Z",
-      "timestamp": 1601853278191,
-      "dateCompleted": "",
-      "recurrance": "",
-      "id": 5
-    },
-    {
       "userId": 6,
       "parent": "",
       "reminderTitle": "Flea & Tick",
@@ -131,28 +64,111 @@
     },
     {
       "userId": 6,
-      "parent": "",
-      "reminderTitle": "Checkup",
-      "reminderNote": "Vet checkup.",
-      "dueDate": "2021-01-02",
-      "dueDateTimestamp": 1609545600,
-      "dateSet": "2020-10-04T23:53:32.468Z",
-      "timestamp": 1601855612468,
+      "reminderTitle": "Order More Raw Food",
+      "reminderNote": "",
+      "dueDate": "2021-01-03",
+      "dueDateTimestamp": 1609708593376,
+      "timeDue": "16:00",
+      "dateSet": "2021-01-03T21:16:30.305Z",
+      "timestamp": 1609708590305,
+      "dateCompleted": "01/03/2021",
+      "recurrance": "monthly",
+      "id": 11
+    },
+    {
+      "parent": 11,
+      "userId": 6,
+      "reminderTitle": "Order More Raw Food",
+      "reminderNote": "",
+      "dueDate": "2021-01-31",
+      "dueDateTimestamp": 1612127793376,
+      "timeDue": "16:00",
+      "dateSet": "2021-01-03T22:09:32.718Z",
+      "timestamp": 1609711772718,
       "dateCompleted": "",
-      "recurrance": "",
-      "id": 7
+      "recurrance": "monthly",
+      "id": 12
+    },
+    {
+      "parent": 13,
+      "userId": 6,
+      "reminderTitle": "Wash Bedding",
+      "reminderNote": "",
+      "dueDate": "2021-01-17",
+      "dueDateTimestamp": 1610921478830,
+      "timeDue": "12:00",
+      "dateSet": "2021-01-03T22:11:35.621Z",
+      "timestamp": 1609711895621,
+      "dateCompleted": "",
+      "recurrance": "weekly",
+      "id": 15
     },
     {
       "userId": 6,
-      "parent": "",
-      "reminderTitle": "Order Food",
-      "dueDate": "2021-01-03",
-      "dueDateTimestamp": 1609632000,
-      "dateSet": "2020-10-04T23:59:32.990Z",
-      "timestamp": 1601855972990,
+      "reminderTitle": "Playdate with Bug",
+      "reminderNote": "Pack organic treats for Bug!",
+      "dueDate": "2021-01-16",
+      "dueDateTimestamp": 1609712794577,
+      "timeDue": "11:00",
+      "dateSet": "2021-01-03T22:26:31.164Z",
+      "timestamp": 1609712791164,
       "dateCompleted": "",
       "recurrance": "",
-      "id": 8
+      "id": 18
+    },
+    {
+      "userId": 6,
+      "reminderTitle": "Teeth Cleaning Day!",
+      "reminderNote": "",
+      "dueDate": "2021-01-03",
+      "dueDateTimestamp": 1609713968984,
+      "timeDue": "11:00",
+      "dateSet": "2021-01-03T22:46:01.906Z",
+      "timestamp": 1609713961906,
+      "dateCompleted": "01/03/2021",
+      "recurrance": "monthly",
+      "id": 19
+    },
+    {
+      "parent": 19,
+      "userId": 6,
+      "reminderTitle": "Teeth Cleaning Day!",
+      "reminderNote": "",
+      "dueDate": "2021-01-31",
+      "dueDateTimestamp": 1612133168984,
+      "timeDue": "11:00",
+      "dateSet": "2021-01-03T23:19:17.189Z",
+      "timestamp": 1609715957189,
+      "dateCompleted": "",
+      "recurrance": "monthly",
+      "id": 20
+    },
+    {
+      "userId": 6,
+      "reminderTitle": "Ear Cleaning Day!",
+      "reminderNote": "",
+      "dueDate": "2021-01-03",
+      "dueDateTimestamp": 1609716017939,
+      "timeDue": "12:00",
+      "dateSet": "2021-01-03T23:20:13.701Z",
+      "timestamp": 1609716013701,
+      "dateCompleted": "01/03/2021",
+      "recurrance": "monthly",
+      "id": 21
+    },
+    {
+      "parent": 21,
+      "userId": 6,
+      "reminderTitle": "Ear Cleaning Day!",
+      "reminderNote": "",
+      "dueDate": "2021-01-31",
+      "dueDateTimestamp": 1612135217939,
+      "timeDue": "12:00",
+      "dateSet": "2021-01-03T23:20:22.531Z",
+      "timestamp": 1609716022531,
+      "dateCompleted": "",
+      "recurrance": "monthly",
+      "id": 22
     }
   ],
   "reminderFor": [],
@@ -206,20 +222,28 @@
       "id": 8
     },
     {
+      "id": 9,
+      "playerImg": "https://res.cloudinary.com/heymonicakay/image/upload/v1609718655/wideretriever/zjyqyvvutciudfezokx2.jpg",
       "userId": 6,
-      "playerImg": "https://res.cloudinary.com/heymonicakay/image/upload/v1609194478/wideRetriever/georgey_oubt0t.jpg",
       "name": "Georgie",
-      "breed": "Welsh Corgi",
-      "age": "7",
-      "id": 9
+      "breed": "Welsh Corgi Mix!",
+      "age": "7"
     },
     {
       "userId": 6,
-      "playerImg": "https://res.cloudinary.com/heymonicakay/image/upload/v1609195205/wideRetriever/frank_q1ssdk.jpg",
+      "playerImg": "https://res.cloudinary.com/heymonicakay/image/upload/v1609720442/wideretriever/ydpwdzeutccqvpnaqhpv.jpg",
       "name": "Frank",
       "breed": "Mixed Breed",
       "age": "2",
       "id": 10
+    },
+    {
+      "userId": 6,
+      "playerImg": "https://res.cloudinary.com/heymonicakay/image/upload/v1610666092/wideretriever/cqhku306nuwaj2leendd.jpg",
+      "name": "Rufus",
+      "breed": "Mix Breed",
+      "age": "4",
+      "id": 11
     }
   ],
   "followings": [
@@ -239,11 +263,6 @@
       "id": 5
     },
     {
-      "userId": 1,
-      "playerId": 3,
-      "id": 6
-    },
-    {
       "userId": 2,
       "playerId": 4,
       "id": 7
@@ -252,11 +271,6 @@
       "userId": 2,
       "playerId": 4,
       "id": 8
-    },
-    {
-      "userId": 1,
-      "playerId": 5,
-      "id": 9
     }
   ],
   "playtimeGoals": [
@@ -294,11 +308,18 @@
     },
     {
       "playerId": 10,
-      "goalSet": 1,
-      "timestamp": 1609191428555,
-      "date": "12/28/2020",
+      "goalSet": 3,
+      "timestamp": 1609720482323,
+      "date": "1/3/2021",
       "frequencyId": 1,
       "id": 6
+    },
+    {
+      "playerId": 11,
+      "goalSet": 1,
+      "timestamp": 1610666138156,
+      "date": "1/14/2021",
+      "id": 7
     }
   ],
   "exerciseGoals": [
@@ -308,7 +329,7 @@
       "measurementTypeId": 2,
       "frequencyId": 1,
       "timestamp": 1601339954723,
-      "date": "9/28/2020",
+      "date": "09/28/2020",
       "id": 5
     },
     {
@@ -331,7 +352,7 @@
     },
     {
       "playerId": 9,
-      "goalSet": 30,
+      "goalSet": 15,
       "measurementTypeId": 1,
       "frequencyId": 1,
       "timestamp": 1609191412050,
@@ -340,12 +361,21 @@
     },
     {
       "playerId": 10,
-      "goalSet": 30,
+      "goalSet": 20,
       "measurementTypeId": 1,
       "frequencyId": 1,
-      "timestamp": 1609191412050,
-      "date": "12/28/2020",
+      "timestamp": 1609720464034,
+      "date": "1/3/2021",
       "id": 9
+    },
+    {
+      "playerId": 11,
+      "goalSet": 15,
+      "measurementTypeId": 1,
+      "frequencyId": 2,
+      "timestamp": 1610666120872,
+      "date": "1/14/2021",
+      "id": 10
     }
   ],
   "trainingGoals": [
@@ -356,7 +386,7 @@
       "measurementTypeId": 2,
       "frequencyId": 1,
       "timestamp": 1600971551828,
-      "date": "9/24/2020"
+      "date": "09/24/2020"
     },
     {
       "playerId": 7,
@@ -378,7 +408,7 @@
     },
     {
       "playerId": 9,
-      "goalSet": 3,
+      "goalSet": 1,
       "measurementTypeId": 2,
       "frequencyId": 2,
       "timestamp": 1609191420601,
@@ -387,12 +417,21 @@
     },
     {
       "playerId": 10,
-      "goalSet": 3,
+      "goalSet": 10,
+      "measurementTypeId": 1,
+      "frequencyId": 1,
+      "timestamp": 1609720470024,
+      "date": "1/3/2021",
+      "id": 6
+    },
+    {
+      "playerId": 11,
+      "goalSet": 1,
       "measurementTypeId": 2,
       "frequencyId": 2,
-      "timestamp": 1609191420601,
-      "date": "12/28/2020",
-      "id": 6
+      "timestamp": 1610666133073,
+      "date": "1/14/2021",
+      "id": 7
     }
   ],
   "playtimes": [
@@ -409,7 +448,7 @@
       "playerId": 4,
       "catches": 2,
       "misses": 3,
-      "date": "10/5/2020",
+      "date": "10/05/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1601941026300,
       "id": 12
@@ -418,7 +457,7 @@
       "playerId": 4,
       "catches": 4,
       "misses": 1,
-      "date": "10/5/2020",
+      "date": "10/05/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1601950969474,
       "id": 13
@@ -427,7 +466,7 @@
       "playerId": 4,
       "catches": 4,
       "misses": 1,
-      "date": "10/6/2020",
+      "date": "10/06/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1601997892854,
       "id": 14
@@ -436,7 +475,7 @@
       "playerId": 4,
       "catches": 5,
       "misses": 0,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "note": "Doggorino length boy wow very biscit puggo wow very biscit, borkf dat tungg tho.",
       "timestamp": 1606931698629,
       "id": 15
@@ -552,7 +591,7 @@
       "playerId": 8,
       "catches": 2,
       "misses": 3,
-      "date": "12/1/2020",
+      "date": "12/01/2020",
       "timestamp": 1606780800,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 28
@@ -561,7 +600,7 @@
       "playerId": 8,
       "catches": 1,
       "misses": 4,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "timestamp": 1606867200,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 29
@@ -570,7 +609,7 @@
       "playerId": 8,
       "catches": 0,
       "misses": 5,
-      "date": "12/3/2020",
+      "date": "12/03/2020",
       "timestamp": 1606953600,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 30
@@ -669,7 +708,7 @@
       "playerId": 9,
       "catches": 2,
       "misses": 3,
-      "date": "12/1/2020",
+      "date": "12/01/2020",
       "timestamp": 1606780800,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 41
@@ -678,7 +717,7 @@
       "playerId": 9,
       "catches": 1,
       "misses": 4,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "timestamp": 1606867200,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 42
@@ -687,37 +726,28 @@
       "playerId": 9,
       "catches": 0,
       "misses": 5,
-      "date": "12/3/2020",
+      "date": "12/03/2020",
       "timestamp": 1606953600,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 43
     },
     {
-      "playerId": 10,
-      "catches": 2,
-      "misses": 3,
-      "date": "12/1/2020",
-      "timestamp": 1606780800,
+      "playerId": 9,
+      "catches": 4,
+      "misses": 1,
+      "date": "1/3/2021",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
-      "id": 44
+      "timestamp": 1609716510177,
+      "id": 47
     },
     {
       "playerId": 10,
-      "catches": 1,
-      "misses": 4,
-      "date": "12/2/2020",
-      "timestamp": 1606867200,
-      "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
-      "id": 45
-    },
-    {
-      "playerId": 10,
-      "catches": 0,
-      "misses": 5,
-      "date": "12/3/2020",
-      "timestamp": 1606953600,
-      "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
-      "id": 46
+      "catches": 3,
+      "misses": 2,
+      "date": "1/3/2021",
+      "note": "Great game Frank!",
+      "timestamp": 1609720590304,
+      "id": 48
     }
   ],
   "exercises": [
@@ -726,7 +756,7 @@
       "exerciseTypeId": 2,
       "minutes": 68,
       "seconds": 32,
-      "date": "9/19/2020",
+      "date": "09/19/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 5,
       "timestamp": 1600538981
@@ -736,7 +766,7 @@
       "exerciseTypeId": 1,
       "minutes": 68,
       "seconds": 32,
-      "date": "9/20/2020",
+      "date": "09/20/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 6
     },
@@ -746,7 +776,7 @@
       "minutes": 68,
       "seconds": 32,
       "exerciseTypeId": 1,
-      "date": "9/21/2020",
+      "date": "09/21/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1600711781
     },
@@ -755,7 +785,7 @@
       "exerciseTypeId": 2,
       "minutes": 68,
       "seconds": 32,
-      "date": "9/24/2020",
+      "date": "09/24/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1600929310499,
       "id": 8
@@ -765,7 +795,7 @@
       "exerciseTypeId": 1,
       "minutes": 48,
       "seconds": 32,
-      "date": "9/28/2020",
+      "date": "09/28/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1601354096296,
       "id": 9
@@ -775,7 +805,7 @@
       "exerciseTypeId": 1,
       "minutes": 68,
       "seconds": 32,
-      "date": "9/29/2020",
+      "date": "09/29/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1601392924472,
       "id": 10
@@ -786,7 +816,7 @@
       "startTime": "2:35:18 PM",
       "minutes": 0,
       "seconds": 4,
-      "date": "9/30/2020",
+      "date": "09/30/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1601494528841,
       "id": 11
@@ -798,7 +828,7 @@
       "endTime": "11:38 AM",
       "minutes": 0,
       "seconds": 10,
-      "date": "10/6/2020",
+      "date": "10/06/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1602002332738,
       "id": 12
@@ -810,7 +840,7 @@
       "endTime": "3:21 PM",
       "minutes": 16,
       "seconds": 46,
-      "date": "10/6/2020",
+      "date": "10/06/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1602015670608,
       "id": 13
@@ -978,7 +1008,7 @@
       "endTime": "4:45 PM",
       "minutes": 15,
       "seconds": 0,
-      "date": "12/1/2020",
+      "date": "12/01/2020",
       "timestamp": 1606780800,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 26
@@ -990,7 +1020,7 @@
       "endTime": "5:45 PM",
       "minutes": 15,
       "seconds": 0,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "timestamp": 1606867200,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 27
@@ -1002,7 +1032,7 @@
       "endTime": "6:45 PM",
       "minutes": 15,
       "seconds": 0,
-      "date": "12/3/2020",
+      "date": "12/03/2020",
       "timestamp": 1606953600,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 28
@@ -1134,7 +1164,7 @@
       "endTime": "4:45 PM",
       "minutes": 15,
       "seconds": 0,
-      "date": "12/1/2020",
+      "date": "12/01/2020",
       "timestamp": 1606780800,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 39
@@ -1146,7 +1176,7 @@
       "endTime": "5:45 PM",
       "minutes": 15,
       "seconds": 0,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "timestamp": 1606867200,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 40
@@ -1158,7 +1188,7 @@
       "endTime": "6:45 PM",
       "minutes": 15,
       "seconds": 0,
-      "date": "12/3/2020",
+      "date": "12/03/2020",
       "timestamp": 1606953600,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 41
@@ -1290,7 +1320,7 @@
       "endTime": "4:45 PM",
       "minutes": 15,
       "seconds": 0,
-      "date": "12/1/2020",
+      "date": "12/01/2020",
       "timestamp": 1606780800,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 52
@@ -1302,7 +1332,7 @@
       "endTime": "5:45 PM",
       "minutes": 15,
       "seconds": 0,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "timestamp": 1606867200,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 53
@@ -1314,46 +1344,10 @@
       "endTime": "6:45 PM",
       "minutes": 15,
       "seconds": 0,
-      "date": "12/3/2020",
+      "date": "12/03/2020",
       "timestamp": 1606953600,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 54
-    },
-    {
-      "playerId": 10,
-      "exerciseTypeId": 1,
-      "startTime": "4:30 PM",
-      "endTime": "4:45 PM",
-      "minutes": 15,
-      "seconds": 0,
-      "date": "12/1/2020",
-      "timestamp": 1606780800,
-      "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
-      "id": 55
-    },
-    {
-      "playerId": 10,
-      "exerciseTypeId": 2,
-      "startTime": "5:30 PM",
-      "endTime": "5:45 PM",
-      "minutes": 15,
-      "seconds": 0,
-      "date": "12/2/2020",
-      "timestamp": 1606867200,
-      "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
-      "id": 56
-    },
-    {
-      "playerId": 10,
-      "exerciseTypeId": 3,
-      "startTime": "6:30 PM",
-      "endTime": "6:45 PM",
-      "minutes": 15,
-      "seconds": 0,
-      "date": "12/3/2020",
-      "timestamp": 1606953600,
-      "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
-      "id": 57
     }
   ],
   "trainings": [
@@ -1365,7 +1359,7 @@
       "minutes": 15,
       "seconds": 38,
       "treatCount": 3,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1606841659000,
       "id": 7
@@ -1378,7 +1372,7 @@
       "minutes": 20,
       "seconds": 49,
       "treatCount": 2,
-      "date": "12/1/2020",
+      "date": "12/01/2020",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "timestamp": 1606870253465,
       "id": 8
@@ -1612,7 +1606,7 @@
       "minutes": 15,
       "seconds": 0,
       "treatCount": 1,
-      "date": "12/1/2020",
+      "date": "12/01/2020",
       "timestamp": 1606780800,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 26
@@ -1625,7 +1619,7 @@
       "minutes": 15,
       "seconds": 0,
       "treatCount": 0,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "timestamp": 1606867200,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 27
@@ -1638,7 +1632,7 @@
       "minutes": 15,
       "seconds": 0,
       "treatCount": 3,
-      "date": "12/3/2020",
+      "date": "12/03/2020",
       "timestamp": 1606953600,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 28
@@ -1781,7 +1775,7 @@
       "minutes": 15,
       "seconds": 0,
       "treatcount": 1,
-      "date": "12/1/2020",
+      "date": "12/01/2020",
       "timestamp": 1606780800,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 39
@@ -1794,7 +1788,7 @@
       "minutes": 15,
       "seconds": 0,
       "treatcount": 0,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "timestamp": 1606867200,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 40
@@ -1807,7 +1801,7 @@
       "minutes": 15,
       "seconds": 0,
       "treatcount": 3,
-      "date": "12/3/2020",
+      "date": "12/03/2020",
       "timestamp": 1606953600,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 41
@@ -1950,7 +1944,7 @@
       "minutes": 15,
       "seconds": 0,
       "treatcount": 1,
-      "date": "12/1/2020",
+      "date": "12/01/2020",
       "timestamp": 1606780800,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 52
@@ -1963,7 +1957,7 @@
       "minutes": 15,
       "seconds": 0,
       "treatcount": 0,
-      "date": "12/2/2020",
+      "date": "12/02/2020",
       "timestamp": 1606867200,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 53
@@ -1976,36 +1970,23 @@
       "minutes": 15,
       "seconds": 0,
       "treatcount": 3,
-      "date": "12/3/2020",
+      "date": "12/03/2020",
       "timestamp": 1606953600,
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
       "id": 54
     },
     {
-      "playerId": 10,
-      "trainingTypeId": 2,
-      "startTime": "5:30 PM",
-      "endTime": "5:45 PM",
-      "minutes": 15,
-      "seconds": 0,
-      "treatcount": 0,
-      "date": "12/2/2020",
-      "timestamp": 1606867200,
+      "playerId": 9,
+      "trainingTypeId": 4,
+      "startTime": "5:31 PM",
+      "endTime": "5:34 PM",
+      "minutes": 5,
+      "seconds": 3,
+      "treatCount": 2,
+      "date": "1/3/2021",
       "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
-      "id": 55
-    },
-    {
-      "playerId": 10,
-      "trainingTypeId": 3,
-      "startTime": "6:30 PM",
-      "endTime": "6:45 PM",
-      "minutes": 15,
-      "seconds": 0,
-      "treatcount": 3,
-      "date": "12/3/2020",
-      "timestamp": 1606953600,
-      "note": "Doggo ipsum h*ck the neighborhood I am borking doggo.",
-      "id": 56
+      "timestamp": 1609716880328,
+      "id": 57
     }
   ],
   "measurementTypes": [
